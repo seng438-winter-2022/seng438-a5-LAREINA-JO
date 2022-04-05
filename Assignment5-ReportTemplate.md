@@ -11,7 +11,7 @@
 
 # Introduction
 
-# 
+This assignment aims to test our ability to check the reliability of the system using the given failure data. In this assignment, we can practise the use of reliability tools and two reliability tests: reliability growth testing and RDC. 
 
 # Assessment Using Reliability Growth Testing 
 
