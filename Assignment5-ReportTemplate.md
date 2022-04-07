@@ -55,7 +55,13 @@ From what we observed, we know that the maximum acceptable number of failures af
 
 # Comparison of Results
 
+From the reliability testing, we could know that the failure intensity and the failure rate don't have a significant drop as the time goes. It shows that the system doesn't have a storng reliability growth. The result of RDC testing is strongly dependent on the maximum acceptable number of failure. As we set the maximum acceptable number of failure to a relatively low number, the RDC will show that the observed data is in the continue or reject region. Based on these two testing, the failure data shows that the system is not reliable.
+
 # Discussion on Similarity and Differences of the Two Techniques
+
+Similarity: The reliability growth testing and the RDC testing both aims to test the reliability of a system. They use failure data to generate graph or chart to demonstrate the reliability.
+
+Difference: The reliability growth testing uses the failure intensity and failure rate to demonstrate the reliability. If the failure intensity or failure rate doesn't drop as the time goes, it means that the system is not reliable. But the RDC testing uses the failure counts and the maximum acceptable number of failure that we set to demonstrate the reliability. The maximum acceptable number of failure is the element that will make the failure data acceptable or unacceptable. 
 
 # How the team work/effort was divided and managed
 
