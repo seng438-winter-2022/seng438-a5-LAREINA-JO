@@ -59,8 +59,11 @@ From what we observed, we know that the maximum acceptable number of failures af
 
 # How the team work/effort was divided and managed
 
-#
+For part I, Zheng Chen and Rui Guan used Windows system to do the reliability growth testing. For part II, Weitao Wu and Brian Chen did the RDC testing using the RDC.xls.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
+When first time using the RDC.xls, we were confused about where and how to input the failure data. We divided the failture data by 10 so that the failure data would fit the RDC. Then, we firgured out the maximum acceptable number of failure is the key to affect the RDC. Through the RDC testing, we know that the RDC testing is very useful to test the reliability of a system by regulating the maximum acceptable number of failures.
+
 # Comments/feedback on the lab itself
+This lab is overall great. It provides chance for us to do the realiability testing. But the instruction is not clear enough at some points which is needed to be improved.
