@@ -2,7 +2,7 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:      |     |
+| Group \#:      |  9  |
 | -------------- | --- |
 | Student Names: |Weitao Wu    |
 |                |zheng Chen   |
