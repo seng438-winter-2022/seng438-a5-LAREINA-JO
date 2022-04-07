@@ -4,10 +4,10 @@
 
 | Group \#:      |     |
 | -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Student Names: |Weitao Wu    |
+|                |zheng Chen   |
+|                |Rui Guan     |
+|                |Brian Chen   |
 
 # Introduction
 
