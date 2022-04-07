@@ -2,12 +2,12 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:      |  9  |
-| -------------- | --- |
-| Student Names: |Weitao Wu    |
-|                |zheng Chen   |
-|                |Rui Guan     |
-|                |Brian Chen   |
+| Group \#:      | 9          |
+| -------------- | ---------- |
+| Student Names: | Weitao Wu  |
+|                | Zheng Chen |
+|                | Rui Guan   |
+|                | Brian Chen |
 
 # Introduction
 
@@ -29,7 +29,7 @@ By the comparison, S Distribution and Geometric graphs have the highest and the 
 
 ![](./media/Sgraph.PNG)
 
-In the 10 intervals of prediction, the failure rate slightly drops.
+In the 10 intervals of prediction, the failure rate slightly drops. But it is not satisfied to be low.
 
 ![](./media/FailureIntensityS.PNG)
 
@@ -61,7 +61,7 @@ From the reliability testing, we could know that the failure intensity and the f
 
 Similarity: The reliability growth testing and the RDC testing both aims to test the reliability of a system. They use failure data to generate graph or chart to demonstrate the reliability.
 
-Difference: The reliability growth testing uses the failure intensity and failure rate to demonstrate the reliability. If the failure intensity or failure rate doesn't drop as the time goes, it means that the system is not reliable. But the RDC testing uses the failure counts and the maximum acceptable number of failure that we set to demonstrate the reliability. The maximum acceptable number of failure is the element that will make the failure data acceptable or unacceptable. 
+Difference: The reliability growth testing uses the failure intensity and failure rate to demonstrate the reliability. If the failure intensity or failure rate doesn't drop as the time goes, it means that the system does not maintain a good reliablility. But the RDC testing uses the failure counts and the maximum acceptable number of failure that we set to demonstrate the reliability. The maximum acceptable number of failure is the element that will make the failure data acceptable or unacceptable.
 
 # How the team work/effort was divided and managed
 
@@ -69,7 +69,10 @@ For part I, Zheng Chen and Rui Guan used Windows system to do the reliability gr
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
+At first, we could not figure out the SRTAT input data format and have trouble with changing the failure data format. Instead, we use C-SFRAT on Windows 10 system that the failure data fits. We figure out the interaction between models and three covariates。
+
 When first time using the RDC.xls, we were confused about where and how to input the failure data. We divided the failture data by 10 so that the failure data would fit the RDC. Then, we firgured out the maximum acceptable number of failure is the key to affect the RDC. Through the RDC testing, we know that the RDC testing is very useful to test the reliability of a system by regulating the maximum acceptable number of failures.
 
 # Comments/feedback on the lab itself
+
 This lab is overall great. It provides chance for us to do the realiability testing. But the instruction is not clear enough at some points which is needed to be improved.
