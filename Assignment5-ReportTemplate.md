@@ -55,7 +55,7 @@ From what we observed, we know that the maximum acceptable number of failures af
 
 # Comparison of Results
 
-From the reliability testing, we could know that the failure intensity and the failure rate don't have a significant drop as the time goes. It shows that the system doesn't have a storng reliability growth. The result of RDC testing is strongly dependent on the maximum acceptable number of failure. As we set the maximum acceptable number of failure to a relatively low number, the RDC will show that the observed data is in the continue or reject region. Based on these two testing, the failure data shows that the system is not reliable.
+From the reliability testing, we could know that the failure intensity and the failure rate don't have a significant drop as time goes by. It shows that the system doesn't have a strong reliability growth. The result of RDC testing is strongly dependent on the maximum acceptable number of failures. As we set the maximum acceptable number of failures to a relatively low number, the RDC will show that the observed data is in the continue or reject region. Based on these two tests, the failure data shows that the system is not reliable.
 
 # Discussion on Similarity and Differences of the Two Techniques
 
@@ -65,13 +65,13 @@ Difference: The reliability growth testing uses the failure intensity and failur
 
 # How the team work/effort was divided and managed
 
-For part I, Zheng Chen and Rui Guan used Windows system to do the reliability growth testing. For part II, Weitao Wu and Brian Chen did the RDC testing using the RDC.xls.
+For part I, Zheng Chen and Rui Guan used the Windows system to do the reliability growth testing. For part II, Weitao Wu and Brian Chen did the RDC testing using the RDC.xls.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
 At first, we could not figure out the SRTAT input data format and have trouble with changing the failure data format. Instead, we use C-SFRAT on Windows 10 system that the failure data fits. We figure out the interaction between models and three covariates。
 
-When first time using the RDC.xls, we were confused about where and how to input the failure data. We divided the failture data by 10 so that the failure data would fit the RDC. Then, we firgured out the maximum acceptable number of failure is the key to affect the RDC. Through the RDC testing, we know that the RDC testing is very useful to test the reliability of a system by regulating the maximum acceptable number of failures.
+When first time using the RDC.xls, we were confused about where and how to input the failure data. We divided the failure data by 10 so that the failure data would fit the RDC. Then, we figured out the maximum acceptable number of failures is the key to affecting the RDC. Through the RDC testing, we know that the RDC testing is very useful to test the reliability of a system by regulating the maximum acceptable number of failures.
 
 # Comments/feedback on the lab itself
 
